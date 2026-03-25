@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "<Your Name> Personal Website"
+  title: "Alissa Michiko Lozada's Personal Website"
   search:
     location: navbar
     type: overlay
@@ -21,6 +21,7 @@ website:
         href: aboutme.qmd
       - text: "Projects"
         href: proj.qmd
+        # here you can add a new tab thing, go to new file, quarto doc
 
 format:
   html:
@@ -55,8 +56,8 @@ format:
           &lt;Your Name&gt; Personal Website
         </div>
 
-site-url: "https://<yourusername>.github.io/<repositoryname>/"
-repo-url: "https://github.com/<yourusername>/<repositoryname>"
+site-url: "https://mckloz.github.io/personal-site/"
+repo-url: "https://github.com/mckloz/personal-site"
 repo-actions: [edit, issue]
 
 editor: visual
